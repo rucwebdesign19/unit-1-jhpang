@@ -9,7 +9,7 @@
   .text {
     max-width: 75vw;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #ECE9E4;
   }
   .picture {
     max-width: 65vw;
@@ -19,7 +19,7 @@
 @media only screen and (min-width: 900px) {
   .text {
     max-width: 50vw;
-    background-color: #ffffff;
+    background-color: #ECE9E4;
   }
   .picture {
     max-width: 45vw;
@@ -33,19 +33,27 @@ h2 {
   line-height: 0.4;
 }
 
+h1 {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
 .index {
   background-color: #ECE9E4;
 }
 .content {
   height: 75vh;
-  width: 100vh;
-  background-image: url("mainbg.jpg");
-  background-size: 80%;
+  width: 100vw;
+  background-image: url("background.jpg");
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .title {
   font-size: 3.0em;
+  text-decoration: underline;
 }
 
 .author {
@@ -65,7 +73,7 @@ ul {
 }
 
 .menu {
-  background-color: #989898;
+  background-color: #ECE9E4;
   padding: 1em;
   width: 100%;
   -webkit-box-shadow: 2px 2px 4px 0px rgba(0,0,0,1);
