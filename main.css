@@ -2,6 +2,29 @@
   font-size: 1.0em;
   font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto, Oxygen-Sans,Ubuntu, Cantarell, sans-serif;
   line-height: 1.25;
+
+}
+
+@media only screen and (min-width: 600px) {
+  .text {
+    max-width: 75vw;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  .picture {
+    max-width: 65vw;
+    float: left;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .text {
+    max-width: 50vw;
+    background-color: #ffffff;
+  }
+  .picture {
+    max-width: 45vw;
+    float: left;
+  }
 }
 
 h1,
@@ -10,13 +33,64 @@ h2 {
   line-height: 0.4;
 }
 
-@media only screen and (min-width: 600px) {
-  .text {
-    max-width: 75vw;
-  }
+.index {
+  background-color: #ECE9E4;
 }
-@media only screen and (min-width: 900px) {
-  .text {
-    max-width: 50vw;
-  }
+.content {
+  height: 75vh;
+  width: 100vh;
+  background-image: url("mainbg.jpg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 3.0em;
+}
+
+.author {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.title,
+.author {
+  margin: 0px;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu {
+  background-color: #989898;
+  padding: 1em;
+  width: 100%;
+  -webkit-box-shadow: 2px 2px 4px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 2px 2px 4px 0px rgba(0,0,0,1);
+  box-shadow: 2px 2px 4px 0px rgba(0,0,0,1);
+}
+
+html * {
+
+    box-sizing: border-box;
+}
+
+.menu ul {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+body {
+    margin: 0;
+}
+
+.picture {
+  max-width: 100%;
 }
